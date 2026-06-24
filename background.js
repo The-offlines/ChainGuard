@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
-				"Authorization": "Bearer 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"
+				"Authorization": "Bearer YOUR_GROQ_API_KEY_HERE"
 			},
 			body: JSON.stringify({
 					model: "llama-3.1-8b-instant",
