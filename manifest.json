@@ -4,6 +4,13 @@
   "version": "2.0.0",
   "description": "AI Web3 Tutor & Safety Companion",
   "permissions": ["storage", "tabs"],
+  "host_permissions": [
+    "https://openrouter.ai/*",
+    "https://indexer-storage-testnet-standard.0g.ai/*",
+    "https://rpc-storage-testnet.0g.ai/*",
+    "https://storage-testnet.0g.ai/*",
+    "https://api.groq.com/*"
+  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
